@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: 1px dotted red;
+}
+
+#display {
+  font-size: 36px;
+  padding: 10px 0px;
+  width: 240px;
+}
+#button-container {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  padding: 0px 5px;
+}
+
+
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+}
+
+.zero {
+    flex: 2;
+
+}
+.clear {
+    flex: 3;
+}
